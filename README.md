@@ -9,8 +9,8 @@ Your README file is normally the first entry point to your code. It should tell 
 This repository contains:
 
 1. [The specification](spec.md) for how a standard README should look.
-2. A link to [a linter](https://github.com/RichardLitt/standard-readme-preset) you can use to keep your README maintained ([work in progress](https://github.com/RichardLitt/standard-readme/issues/5)).
-3. A link to [a generator](https://github.com/RichardLitt/generator-standard-readme) you can use to create standard READMEs.
+2. A link to [a linter](https://github.com/RichardLitt/android_monkey_gui-preset) you can use to keep your README maintained ([work in progress](https://github.com/RichardLitt/android_monkey_gui/issues/5)).
+3. A link to [a generator](https://github.com/RichardLitt/generator-android_monkey_gui) you can use to create standard READMEs.
 4. [A badge](#badge) to point to this spec.
 5. [Examples of standard READMEs](example-readmes/) - such as this file you are reading.
 
@@ -46,7 +46,7 @@ graph LR
 
 ## Background
 
-Standard Readme started with the issue originally posed by [@maxogden](https://github.com/maxogden) over at [feross/standard](https://github.com/feross/standard) in [this issue](https://github.com/feross/standard/issues/141), about whether or not a tool to standardize readmes would be useful. A lot of that discussion ended up in [zcei's standard-readme](https://github.com/zcei/standard-readme/issues/1) repository. While working on maintaining the [IPFS](https://github.com/ipfs) repositories, I needed a way to standardize Readmes across that organization. This specification started as a result of that.
+Standard Readme started with the issue originally posed by [@maxogden](https://github.com/maxogden) over at [feross/standard](https://github.com/feross/standard) in [this issue](https://github.com/feross/standard/issues/141), about whether or not a tool to standardize readmes would be useful. A lot of that discussion ended up in [zcei's android_monkey_gui](https://github.com/zcei/android_monkey_gui/issues/1) repository. While working on maintaining the [IPFS](https://github.com/ipfs) repositories, I needed a way to standardize Readmes across that organization. This specification started as a result of that.
 
 > Your documentation is complete when someone can use your module without ever
 having to look at its code. This is very important. This makes it possible for
@@ -65,9 +65,9 @@ By having a standard, users can spend less time searching for the information th
 The goals for this repository are:
 
 1. A well defined **specification**. This can be found in the [Spec document](spec.md). It is a constant work in progress; please open issues to discuss changes.
-2. **An example README**. This Readme is fully standard-readme compliant, and there are more examples in the `example-readmes` folder.
-3. A **linter** that can be used to look at errors in a given Readme. Please refer to the [tracking issue](https://github.com/RichardLitt/standard-readme/issues/5).
-4. A **generator** that can be used to quickly scaffold out new READMEs. See [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme).
+2. **An example README**. This Readme is fully android_monkey_gui compliant, and there are more examples in the `example-readmes` folder.
+3. A **linter** that can be used to look at errors in a given Readme. Please refer to the [tracking issue](https://github.com/RichardLitt/android_monkey_gui/issues/5).
+4. A **generator** that can be used to quickly scaffold out new READMEs. See [generator-android_monkey_gui](https://github.com/RichardLitt/generator-android_monkey_gui).
 5. A **compliant badge** for users. See [the badge](#badge).
 
 ```mermaid
@@ -132,16 +132,16 @@ OS:           Linux 5.4.0-73-generic amd64
 2. Clone code and change directories
 
 ```sh
-$ git clone https://gitee.com/dc-melo/standard-readme.git
+$ git clone https://gitee.com/dc-melo/android_monkey_gui.git
 OR
-$ git clone https://github.com/DC-Melo/standard-readme.git
-$ cd standard-readme
+$ git clone https://github.com/DC-Melo/android_monkey_gui.git
+$ cd android_monkey_gui
 ```
 
 This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
 
 ```sh
-$ npm install --global standard-readme-spec
+$ npm install --global android_monkey_gui-spec
 ```
 
 ## Usage
@@ -149,13 +149,13 @@ $ npm install --global standard-readme-spec
 This is only a documentation package. You can print out [spec.md](spec.md) to your console:
 
 ```sh
-$ standard-readme-spec
-# Prints out the standard-readme spec
+$ android_monkey_gui-spec
+# Prints out the android_monkey_gui spec
 ```
 
 ### Generator
 
-To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
+To use the generator, look at [generator-android_monkey_gui](https://github.com/RichardLitt/generator-android_monkey_gui). There is a global executable to run the generator in that package, aliased as `android_monkey_gui`.
 
 ## Badge
 [![Build Status](https://travis-ci.org/yeungeek/monkey-android.svg?branch=master)](https://travis-ci.org/yeungeek/monkey-android)
@@ -163,12 +163,12 @@ To use the generator, look at [generator-standard-readme](https://github.com/Ric
 
 If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![android_monkey_gui compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/android_monkey_gui)
 
 To add in Markdown format, use this code:
 
 ```
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![android_monkey_gui compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/android_monkey_gui)
 ```
 
 ## Example Readmes
@@ -187,14 +187,14 @@ To see how the specification has been applied, see the [example-readmes](example
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/DC-Melo/standard-readme/issues/new) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/DC-Melo/android_monkey_gui/issues/new) or submit PRs.
 
 Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
 
 ### Contributors
 
 This project exists thanks to all the people who contribute. 
-<a href="https://github.com/RichardLitt/standard-readme/graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/RichardLitt/android_monkey_gui/graphs/contributors"><img src="https://opencollective.com/android_monkey_gui/contributors.svg?width=890&button=false" /></a>
 
 
 ## License

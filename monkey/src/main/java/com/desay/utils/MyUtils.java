@@ -1,5 +1,5 @@
 /**
- * @Author：Tonsen
+ * @Author：DC Melo
  * @Email ：Dongcheng.Wei@desay-svautomotive.com
  * @Date  ：2017-09-12
  */
@@ -13,7 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /** 
-* @author 作者 E-mail: 470029260@qq.com
+* @author 作者 E-mail: melo.da.chor@gmail.com
 * @version 创建时间：2017年9月12日 下午2:58:38 
 * 类说明 :
 */

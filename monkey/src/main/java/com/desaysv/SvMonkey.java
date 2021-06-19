@@ -81,10 +81,10 @@ import org.eclipse.wb.swt.SWTResourceManager;
 * @Title: SvMonkey.java 
 * @Package com.desaysv 
 * @Description: 
-* @author Tonsen    E-mail: 470029260@qq.com
+* @author DC Melo    E-mail: melo.da.chor@gmail.com
 * @date 2018年8月15日 下午4:18:45 
 * @version V1.0  
-* @user Tonsen
+* @user DC Melo
 * @update 
 * 2018年8月15日 下午4:18:45 
 * Monkey测试工具客户端
@@ -2705,7 +2705,7 @@ public class SvMonkey {
 		statusLineManager.setMessage("testLine");
 		//TODO:
 //		shlSvMonkey.setSize(Integer.parseInt(saveShellWidth), Integer.parseInt(saveShellHeight));
-		shlSvMonkey.setText("SVmonkey(By Tonsen)");
+		shlSvMonkey.setText("SVmonkey(By DC Melo)");
 		shlSvMonkey.addControlListener(new ControlListener() {
 			public void controlMoved(ControlEvent e) {
 //				MyUtils.printWithTimeMill("窗口位置移动了");
@@ -2816,7 +2816,7 @@ public class SvMonkey {
 			    //设置对话框的标题
 			    box.setText("关于");
 			    //设置对话框显示的消息
-			    box.setMessage("版本：V3.50 \r\n日期：2020-01-03\r\n有问题或建议请联系 : Tonsen \r\n微信:TonsenWei \r\n QQ:470029260");
+			    box.setMessage("版本：V3.50 \r\n日期：2020-01-03\r\n有问题或建议请联系 : DC Melo \r\n微信:DC MeloWei \r\n QQ:470029260");
 			    //打开对话框
 			    box.open();
 			}
