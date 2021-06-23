@@ -1,0 +1,2 @@
+com/dc/SWTHelloWorld.java
+ com.dc.SWTHelloWorld

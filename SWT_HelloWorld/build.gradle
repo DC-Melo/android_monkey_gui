@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation fileTree(dir:'libs',include:['*.jar'])
+}
+
+test {
+    useJUnitPlatform()
+}
+jar {
+    manifest {
+        attributes(
+                   // 'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                   // 'Main-Class': 'com.github.runner.Main'
+                   'Main-Class': 'com.dc.SWTHelloWorld'
+                  )
+    }
+
+    from { (configurations.runtimeClasspath).collect { it.isDirectory() ? it : zipTree(it) } } {
+        exclude 'META-INF/*.RSA', 'META-INF/*.SF', 'META-INF/*.DSA'
+    }
+}
